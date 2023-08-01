@@ -1,25 +1,47 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Restaurant from "./Components/Resturant/restaurant"
 
-function App() {
+// const App=()=>{
+//   return (
+//     // <React.Fragment>
+//     <>
+//     <MyName/>
+//     <MyName/>
+//     <MyName/>
+//     <div>
+//       <h1 className="head">HElo {3+3}</h1>
+//     </div>
+//     <p>THIS is para</p>
+//     <img src="" alt="image"></img>
+//     </>
+//     // </React.Fragment>
+//   );
+// }
+
+// // How actually react works under the hood
+
+// // const App=()=>{
+// //   return React.createElement('div',{},
+// //   React.createElement('h1',{},"HELLOO"))
+// // }
+
+
+// const MyName=()=>{
+//   return (
+//    <>
+//    <h2>HEllo I am a Sharad</h2>
+//    </>
+//   );
+// }
+
+const App=()=>{
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <Restaurant/>
+    </>
   );
 }
 
 export default App;
+
+
